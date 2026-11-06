@@ -1,0 +1,27 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+*.iml
+.idea/
+.vscode/
+*.log
+# Generated platform folders (recreate with `flutter create .`)
+**/android/
+**/ios/
+**/linux/
+**/macos/
+**/windows/
+**/web/*
+!**/web/sqlite3.wasm
+!**/web/sqflite_sw.js
+# Secrets / generated
+google-services.json
+GoogleService-Info.plist
+*.apk
+.DS_Store
